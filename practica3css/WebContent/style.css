@@ -19,7 +19,7 @@ h1 {
 }
 
 .parrafo {
-	display: inline-block;
+	float:left;
 	height: 150px;
 	width: 400px;
 	background-color: #04878c;
@@ -30,14 +30,15 @@ h1 {
 	display: inline;
 	color: yellow;
 	background-color: black;
-	line-height: 150%;
+	line-height: 200%;
 
 }
 
 .derecha {
 	width: 40%;
-	left: 300px;
+	left: 200px;
 	position: relative;
+	margin-top: 50px;
 }
 
 .azul {
